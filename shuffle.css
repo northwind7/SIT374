@@ -1,0 +1,27 @@
+table.score-table { border-collapse: collapse; }
+table.score-table thead th {
+    background-color: #1b75bc;
+    text-align: center;
+    color: #ffffff;}
+table.score-table thead th,
+table.score-table tbody td { border: 1px solid #bfcbd4;}
+
+.gfield_required { display: none; }
+
+table.gsurvey-likert { table-layout: auto !important; }
+table.gsurvey-likert th.gsurvey-likert-choice-label { width: 130px; }
+table.gsurvey-likert td.gsurvey-likert-row-label { min-width: 312px; height: 63px; }
+table.gsurvey-likert td { padding: 4px; }
+
+
+#chartContainer {
+    width: 900px;
+    height: 600px;
+    visibility: hidden;
+    position: absolute;
+}
+
+#myImage {
+    visibility: hidden;
+    position: absolute;
+}
